@@ -8,7 +8,8 @@
   "dependencies": {
   },
   "scripts": {
-    "dev": "npm -w forecast run dev"
+    "dev": "npm -w forecast run dev",
+    "build": "npm -w shared run build"
   },
   "devDependencies": {
     "prettier": "^2.8.8"

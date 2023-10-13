@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "shared": "workspace:*",
     "@mantine/core": "7.1.3",
     "@mantine/hooks": "7.1.3",
     "next": "^13.5.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "shared": "*"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.8.5",

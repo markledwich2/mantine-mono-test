@@ -8,6 +8,13 @@
 			],
 			"label": "dev",
 			"command": "npm -w forecast run dev"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build"
 		}
 	]
 }
